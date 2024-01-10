@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cleup Vite</title>
+
+    <!-- Styles -->
+    <style>
+        html,
+        body {
+            background-color: #ebebeb;
+            height: 100%;
+            width: 100%;
+            font-family: sans-serif;
+        }
+
+        #app {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .app__title {
+            font-size: 26px;
+            color: #333;
+        }
+
+        p {
+            margin: 0;
+            margin-top: 15px;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="app__title">Cleup Vite Plugin</div>
+        <p>This is the Vite development server that provides Hot Module Replacement for your Cleup application.</p>
+        <p>The server is running: <a href="{{ APP_URL }}">{{ APP_URL }}</a></p>
+        <p>More detailed: <a href="https://github.com/cleup/vite-plugin">https://github.com/cleup/vite-plugin</a></p>
+    </div>
+</body>
+
+</html>

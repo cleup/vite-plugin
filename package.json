@@ -1,7 +1,7 @@
 {
     "name": "cleup-vite-plugin",
-    "version": "1.0.1",
-    "description": "Cleup plugin for Vite.",
+    "version": "1.0.2",
+    "description": "Cleup plugin for Vite",
     "keywords": [
         "cleup",
         "vite",

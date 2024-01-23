@@ -3,9 +3,8 @@
 Plugin for the correct operation of the Cleup framework
 
 #### Installation
-
 ```
-npm i cleup/vite-plugin
+npm i cleup-vite-plugin
 ```
 
 ### Configure vite.config.js 

@@ -91,7 +91,7 @@ function resolveCleupPlugin(pluginConfig) {
         },
         configureServer(server) {
             const envDir = resolvedConfig.envDir || process.cwd();
-            const appUrl = loadEnv(resolvedConfig.mode, envDir, "APP_URL").APP_URL ?? "undefined";
+            const appUrl = loadEnv(resolvedConfig.mode, envDir, "APP_URL").APP_URL ?? "n/a";
             server.httpServer?.once("listening", () => {
                 const address = server.httpServer?.address();
                 const isAddressInfo = (x) => typeof x === "object";
